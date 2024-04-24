@@ -1,0 +1,35 @@
+/* styles/Blog.module.css */
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.blogCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.blogCard h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.blogCard p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.blogCard a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.blogCard a:hover {
+  text-decoration: underline;
+}

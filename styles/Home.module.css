@@ -5,11 +5,13 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  justify-content:flex-start;
+  padding-top: 3rem;
 }
 
 .description {
   display: inherit;
-  justify-content: inherit;
+  justify-content: center;
   align-items: inherit;
   font-size: 0.85rem;
   max-width: var(--max-width);
@@ -185,6 +187,7 @@
     );
     background-clip: padding-box;
     backdrop-filter: blur(24px);
+   
   }
 
   .description div {
@@ -225,5 +228,41 @@
   }
   to {
     transform: rotate(0deg);
+  }
+}
+
+.mainnav ul{
+  display:flex;
+  justify-content:center;
+  margin-top:50px;
+}
+
+.mainnav ul li{
+  margin:0 24px;
+  list-style:none;
+  font-weight:bold;
+}
+
+.myImg{
+  width:157px;
+  border-radius:92px;
+}  
+.popularBlogs {
+  text-align: left;
+}
+
+.blogItem {
+  margin-bottom: 20px;
+}
+.btn{
+  color:white;
+  cursor: pointer;
+
+}
+@media only screen and (max-width:600px){
+  .mainnav ul li{
+    margin :0 6px;
+    list-style:none;
+    font-weight:bold;
   }
 }

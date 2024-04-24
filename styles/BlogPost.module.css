@@ -1,0 +1,40 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+    justify-content:flex-start;
+    padding-top: 3rem;
+  }
+  .container{
+    padding:0 22rem;
+  }
+  /* styles/BlogPost.module.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main {
+  font-family: Arial, sans-serif;
+}
+
+/* Hide mobile content by default */
+.mobile {
+  display: none;
+}
+
+/* Show mobile content on small screens */
+@media only screen and (max-width: 600px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: inline;
+  }
+}
